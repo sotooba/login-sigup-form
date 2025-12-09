@@ -1,12 +1,64 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Sig-up</title>
+    <title>Sign-up</title>
 </head>
-<body style="background: url(bg2.jpg);">
-    
+
+<body>
+
+    <div class="container signup-box">
+        <form action="#" class="login-form">
+
+            <h2>Sign-up</h2>
+
+            <div class="input-box">
+                <input type="email" required>
+                <label>Email</label>
+            </div>
+
+            <div class="input-box">
+                <input type="text" required>
+                <label>Username</label>
+            </div>
+
+            <div class="input-box">
+                <input type="password" required>
+                <label>Password</label>
+            </div>
+
+            <div class="input-box dob-box">
+                <input type="date" required>
+                <label>Date of Birth</label>
+            </div>
+
+            <div class="gender-box">
+                <p>Gender</p>
+
+                <label>
+                    <input type="radio" name="gender" value="male">
+                    Male
+                </label>
+
+                <label>
+                    <input type="radio" name="gender" value="female">
+                    Female
+                </label>
+
+                <label>
+                    <input type="radio" name="gender" value="other">
+                    Other
+                </label>
+            </div>
+
+            <button type="submit" class="btn signup-btn">Create Account</button>
+
+        </form>
+    </div>
+
 </body>
+
 </html>

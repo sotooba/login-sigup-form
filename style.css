@@ -7,7 +7,7 @@
 }
 
 body {
-    background-image: url(bg.webp);
+    background-image: url(bg.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -21,6 +21,8 @@ body {
     width: 500px;
     padding: 30px;
     margin-top: 30px;
+    border: 2px solid rgba(175, 174, 174, 0.5);
+    box-shadow: 2px 2px 3px rgb(80, 80, 80);
 }
 
 .login-form h2 {
@@ -58,8 +60,8 @@ body {
 
 }
 
-.input-box input:focus + label,
-.input-box input:not(:placeholder-shown) + label {
+.input-box input:focus+label,
+.input-box input:not(:placeholder-shown)+label {
     bottom: 35px;
     font-size: 16px;
 }
@@ -68,7 +70,7 @@ body {
 .btn {
     width: 100%;
     padding: 12px;
-    background: #58ec7d;
+    background: #87d1fc;
     border: none;
     border-radius: 8px;
     color: #333232;
@@ -79,7 +81,7 @@ body {
 }
 
 .btn:hover {
-    background: #1d8537;
+    background: aquamarine;
     color: black;
 }
 
@@ -97,4 +99,23 @@ body {
 
 .register-link a:hover {
     text-decoration: underline;
+}
+
+
+/* Sign-up form */
+
+.signup-box {
+    width: 600px;
+}
+
+.gender-box {
+    margin-bottom: 25px;
+}
+
+.gender-box p {
+    margin-bottom: 10px;
+}
+
+.gender-box label {
+    padding-right: 110px;
 }
